@@ -1,0 +1,275 @@
+#fornav{
+    margin-top:15px;
+}
+main{
+    height:2200px;
+}
+#mywrapper {
+    margin-top:30px;
+    max-width: 100%;
+    margin-left:200px;
+    margin-right:200px;
+    display:grid;
+    grid-template-columns: 10px 600px 160px 160px 160px;
+    grid-auto-rows: 250px 80px 170px;
+  }
+.container{
+    width:600px;
+    grid-column: 1/3;
+    grid-row: 1/4;
+   
+    
+    
+}
+#word{
+    
+    grid-column: 3/6;
+    grid-row: 1/3;
+   
+  
+}
+#pictureone{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+    border-radius:50%;
+    
+    
+   
+
+}
+#picturetwo{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    
+    border-radius:50%;
+    margin-left:10px;
+
+
+}
+#picturethree{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    border-radius:50%;
+    margin-left:20px;
+    
+
+
+}
+.cimg{
+    width:600px;
+    
+}
+.s1img{
+    height:200px;
+    width:200px;
+}
+#ann_arbor,#shanghai,#luoyang{
+    width:1100px;
+    
+    margin-left:220px;
+    height:450px;
+   
+    display:grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-auto-rows: 100px 320px;
+    margin-top:50px;
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:5px;
+    border-radius: 10%;
+}
+.titlepart{
+    font-family: 'Noto Serif TC', serif;
+    padding:15px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    
+    font-size:50px;
+}
+.firstpic{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top:-15px;
+    margin-left:5px;
+    border-radius:5%;
+}
+.secondpic{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top:-15px;
+    margin-left:20px;
+}
+.thirdpic{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top:-15px;
+    margin-left:20px;
+}
+.fourthpic{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top:-15px;
+    margin-left:20px;
+}
+main{
+    display:flex;
+    flex-flow:column;
+}
+.cutepic{
+    height:250px;
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:0.5px;
+    border-radius:5%;
+   
+}
+.expla{
+    color:rgb(1, 1, 57);
+    margin-top:5px;
+    height:65px;
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:0.5px;
+    border-radius:10%;
+   
+}
+  .father {
+    width:160px;
+    height:160px;
+    position:relative;
+    transition:all 1s ease-in-out;
+    transform-style:preserve-3d;
+      }
+  .father:hover {
+    transform: rotateY(180deg);
+  }
+  .father div {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    font-size: 30px;
+    text-align:center;
+    line-height:20px;
+    color:rgb(1, 1, 57);
+    padding-top:60px;
+  }
+  .front {
+    z-index:2;
+    backface-visibility: hidden;
+    border-radius:50%;
+    color:rgb(1, 1, 57);
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:1px;
+    z-index:1;
+    
+  }
+  #minipic{
+   display:none;
+  }
+  .back {
+    z-index:1;
+    background-color: rgb(135, 157, 184,0.5);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius:50%;
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:1px;
+    z-index:1;
+  }
+  #picturethree{
+    grid-column: 5/6;
+    grid-row: 3/4;
+   
+    border-radius:50%;
+    
+
+
+}
+h1,h2{
+    font-family: 'Noto Serif TC', serif;
+    margin-top:-10px;
+    margin-left:-10px;
+}
+h2{
+    margin-left:-1px;
+    margin-top:20px;
+    font-size:20px;
+    color:rgb(1, 1, 57);
+}
+
+h1:before,
+h1:after {
+	height:0px;
+	width:0px;
+	content: "";
+	background:rgb(1, 1, 57);
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+p{
+    
+    font-size:15px;
+    line-height:20px;
+    color:rgb(1, 1, 57);
+}
+#firstp:before,
+#lastp:after{
+    height: 0.5px;
+	width:480px;;
+	content: "";
+	background:rgb(1, 1, 57);
+	display: block;
+	position: absolute;
+}
+#cities{
+    margin-top:-15px;
+}
+.into{
+    color:white;
+}
+.myCarousel{
+    background-color:black;
+}
+#front1{
+    background-image:url('../img/michigan.jpg');
+   
+    background-position-x: -40px;
+    background-position-y: -15px;
+}
+#front2{
+    background-image:url('../img/sh.jpg');
+   background-size: 200px 200px;
+    background-position-x:-15px;
+    background-position-y: -50px;
+}
+#front3{
+    background-image:url('../img/ly.jpg');
+   background-size: 200px 200px;
+    background-position-x:-25px;
+    background-position-y: -20px;
+}
+button{
+    margin-left:1px;
+    margin-top:20px;
+    z-index:10;
+}
+.simg{
+    margin:8px;
+    width:230px;
+    height:230px;
+    border-radius:5%
+}
+.btn-lg{
+    background-color:rgb(1, 1, 57);
+    width:150px;
+    height:20px;
+    font-size:15px;
+    line-height:2px;
+}

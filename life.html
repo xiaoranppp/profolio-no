@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xiaoran Peng</title>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css"> 
+    <link rel="stylesheet" type="text/css" href="css/life.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src='myjs.js'></script>
+    <script src="wow.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    new WOW().init();
+    $(function(){
+
+window.sr = ScrollReveal();
+
+if ($(window).width() < 768) {
+
+    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+        $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+    }
+
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      reset      : true,
+      duration: 800,
+    });
+
+} else {
+    
+    sr.reveal('.js--fadeInLeft', {
+      origin: 'left',
+      distance: '300px',
+        easing: 'ease-in-out',
+        reset      : true,
+      duration: 800,
+    });
+
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      reset      : true,
+      duration: 800,
+    });
+
+}
+
+sr.reveal('.js--fadeInLeft', {
+      origin: 'left',
+      distance: '300px',
+        easing: 'ease-in-out',
+        reset      : true,
+      duration: 800,
+    });
+
+    sr.reveal('.js--fadeInRight', {
+      origin: 'right',
+      distance: '300px',
+      easing: 'ease-in-out',
+      reset      : true,
+      duration: 800,
+    });
+
+
+});
+    </script>
+</head>
+<body>
+    <div id='toppart'>
+   
+    <header id='forhead'>
+            <div >
+                    <a href='#mmmm' class='skip-main'> Jump to main</a>
+                  </div>
+            
+                    Xiaoran's<br>
+                    Life
+            
+           
+                    <div class='mininav'>
+                          <i id='nav' class="fas fa-bars" style='color:navy'></i>
+                    </div>
+              
+                 
+
+    </header>
+    
+   
+    <nav id='fornav'>
+        <ul class='flex-container'>
+            <li class='flex-item'><a href = "index.html">Welcome Page</a></li>
+            <li class='flex-item'><a href = "cities.html">Cities I lived in </a></li>
+            <li class='special flex-item'><a href = "life.html">Experience</a></li>
+            <li class='flex-item'><a href = "random.html">Cities I traveled to</a></li>
+        </ul>
+       
+             
+    </nav>
+   
+
+    </div>
+    <main id='mmmm' tabindex="-1">
+            <div id='social'>
+                    <div>
+                    <a href =https://www.linkedin.com/in/xrpeng><i class="fab fa-linkedin fa-1x" aria-label="linkedin" role="navigation"></i>Linkedin</a>
+                  </div>
+                  <div >
+                    <a href =https://github.com/xiaoranppp><i class="fab fa-github fa-1x" aria-label='github' ></i>Github</a>
+                  </div>
+                  <div >
+                        <a href =https://www.instagram.com/pppppxrrr><i class="fab fa-instagram fa-1x" aria-label='instagram'>Instagram</i></a>
+                  </div>
+                </div>
+     <div class='select'>
+         <h1>
+         Select a time to <br>
+         explore my life.
+         </h1>
+         
+         <div id='pictureone' class='pic'>
+                  
+                  <a href='#1995'><div class="front" id='front1'>1995-2001
+                  </div></a>
+                </div>
+            </div>
+        
+            <div id='picturetwo'class='pic'>
+               
+                    <a href='#2001'><div class="front" id='front2' >2001-2010</div></a>
+                    
+                  
+              </div>
+            
+              <div id='picturethree' class='pic'>
+                  
+                      <div class="front" id='front3' >2010-2017</div>
+                      
+                
+            </div>
+            <div id='picturefour' class='pic'>
+                    
+                        <div class="front" id='front4'>2017-Now</div>
+                        
+                 
+              </div>
+     </div>
+     <div id='year'>
+     <div id='left'>
+         <div class='yr js--fadeInLeft' id='1995'>
+             1995
+         </div>
+         <div class='yr js--fadeInLeft' style='margin-top:150px;'>
+                1997
+            </div>
+            <div class='yr js--fadeInLeft' id='2001' style='margin-top:150px;'>
+            2001
+        </div>
+     </div>
+     <div id='right'>
+         <div class='life js--fadeInRight' >
+             <div class='photoleft'>
+                    <img src="img/birn.jpg" alt="Baby" class='smp'>
+             </div>
+             <div class='center bold'>
+              <h2 style='margin-top:0px;'>
+                  Born
+              </h2>
+              <p style='margin-top:-10px;'>
+                  I was born in Feb.8th 1995 in Luoyang, a small city with more than 20 years history. 
+                  I don't have too much memory about that time. All I remember is I lived with my parents, my grandma and my aunt in a small house.
+              </p>
+             </div>
+             <div class='wordright'>
+                    <img src="img/city.jpg" alt="old city" class='smp'>
+              </div>
+         </div>
+         <div class='life js--fadeInRight'style='margin-top:100px;'>
+                <div class='photoleft bold'>
+                        pic
+                    </div>
+                    <div class='center'>
+                     kkk
+                    </div>
+                    <div class='wordright bold'>
+                           kkk
+                     </div>
+     </div>
+            <div class='life js--fadeInRight' style='margin-top:100px'>
+                <div class='photoleft'>
+                    ppp
+                </div>
+                <div class='center bold'>
+                 kkk
+                </div>
+                <div class='wordright'>
+                       kkk
+                 </div>
+            </div>
+    
+    
+    </main>
+    <footer>Design by Xiaoran Peng</footer>
+    
+    </body>

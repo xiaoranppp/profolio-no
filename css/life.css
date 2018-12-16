@@ -1,0 +1,125 @@
+.select{
+    display:flex;
+    flex-flow:row;
+    margin-left:220px;
+}
+.pic{
+    width:150px;
+    margin-left:15px;
+    background-color:pink;
+    height:150px;
+    margin-top:0px;
+    border-radius:50%;
+}
+  .front {
+    z-index:2;
+    backface-visibility: hidden;
+    color:rgb(1, 1, 57);
+    
+    z-index:1;
+    font-family: 'Cute Font', cursive;
+    margin-top:110px;
+    height:40px;
+    text-align: center;
+    font-size:35px;
+    
+  }
+  #forhead{
+      height:110px;
+  }
+  h1{
+      font-size:30px;
+  }
+  h1:before,
+h1:after {
+	height:0px;
+	width:0px;
+	content: "";
+	background:rgb(1, 1, 57);
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+
+#year{
+    display:flex;
+    flex-flow:row;
+    position:absolute;
+    width:1200px;
+    height:1500px;
+    margin-top:200px;
+    margin-left:220px;
+}
+main{
+    height:2000px;
+}
+#left{
+   width:300px;
+   display:flex;
+   flex-flow:column;
+}
+#right{
+    border-left: 6px solid rgb(1, 1, 57);
+   
+    width:900px;
+    display:flex;
+   flex-flow:column;
+   
+}
+.yr{
+    font-family: 'Cute Font', cursive;
+    font-size:100px;
+    margin-left:90px;
+    color:rgb(1, 1, 57);
+}
+.life{
+    display:flex;
+    flex-flow:row;
+    width:100%;
+    
+    height:200px;
+}
+.photoleft{
+    background-color:green;
+    width:200px;
+    margin-left:50px;
+}
+.wordright{
+    background-color:pink;
+    width:200px;
+   
+
+}
+.bold{
+    border-style: solid;
+    border-color:rgb(1, 1, 57);
+    border-width:0px;
+    background-color:rgb(255, 255, 71,0.5);
+}
+.center{
+    width:200px;
+    
+}
+#pictureone{
+    background-image:url('../img/mini.jpg');
+    background-size:250px 150px;
+    background-position-x: -80px;
+    background-position-y: -150px;
+}
+#picturetwo{
+    background-image:url('../img/baby.jpg');
+    background-size:250px 250px;
+    background-position-x: -60px;
+    background-position-y: -30px;
+}
+.front:hover{
+ font-size:200%;
+}
+.smp{
+    width:200px;
+    height:200px;
+}
+.flex-container{
+    margin-top:0px;
+}

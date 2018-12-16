@@ -1,0 +1,278 @@
+.box{
+    margin-top:20px;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-left:200px;
+    
+  }
+  a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+  body{
+    background-image:url('../img/back.gif');
+    background-color:white;
+  }
+  .letter{
+      width:300px;
+      height:50px;
+      margin-top:40px;
+    
+      margin-left:0px;
+  }
+ 
+  .largebox{
+    width:400px;
+    
+  }
+  .largefont{
+      color:red
+  }
+  
+  #redbox{
+    background-color: #F00;
+    margin-top: 30px;
+    z-index: 3;
+    background-image:url('../img/home.jpg');
+    background-size: 400px 300px;
+  }
+  .xiao{
+      display:none;
+  }
+  
+  #bluebox{
+    background-color: #00F;
+    margin-top: 80px;
+    z-index: 2;
+    background-image:url('../img/life.png');
+    background-size: 400px 300px;
+  }
+  #greenbox{
+    background-color: green;
+    margin-top: 140px;
+    z-index: 1;
+    background-image:url('../img/travel.png');
+    background-size: 400px 300px;
+  }
+  body{
+      display:flex;
+      flex-direction: column;
+      margin: 0;
+  }
+  #toppart{
+      flex:1;
+    
+      height:150px;
+      display:flex;
+      flex-direction: row;
+  }
+  .navbar{
+      display:none;
+  }
+  .mininav1{
+      display:none;
+  }
+  #forhead{
+    font-family: 'Noto Serif TC', serif;
+      background-color:green;
+      height:150px;
+      width:150px;
+      margin-left:150px;
+      text-align: center;
+      font-size: 25px;
+      background-image:url('../img/forhead.gif');
+      background-size: 150px 150px;
+      color:navy;
+      padding-top:40px;
+  }
+  h1{
+    font-size: 10%;  
+  }
+  #headcontent{
+      margin-top:35px;
+      line-height: 40px;
+      font-family: 'Noto Serif TC', serif;
+      background-color:white;
+  }
+  #fornav{
+      width:800px;
+      text-align: center;
+      line-height: 100px;
+      margin-left:50px;
+      margin-top:20px;
+  }
+  .flex-container {
+    font-family: 'Noto Serif TC', serif;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+   
+  }
+
+ 
+.flex-item {
+ 
+  color: white;
+  width: 250px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  margin-left:-30px;
+}
+
+a{
+    color:navy;
+    text-decoration: none;  
+}
+a:visited{
+      color:navy;
+  }
+a:hover{
+    font-size:120%;
+}
+#forsmallnav{
+    position:absolute;
+    display:flex;
+    flex-flow:row;
+    padding:30px;
+}
+#social{
+    position:fixed;
+    margin-left:1350px;
+    margin-top:-120px;
+    line-height: 25px;
+}
+.mininav{
+    position:absolute;
+    margin:20px;
+    margin-left:-80px;
+    margin-top:-60px;
+   
+    
+}
+main{
+    height:535px;
+    display:flex;
+    flex-flow:row;
+    
+}
+footer{
+    height:40px;
+    background-color:rgb(1, 1, 57);
+    
+    text-align: center;
+    color:white;
+}
+#picturechoose{
+    margin-left:10%;
+    margin-top:10px;
+}
+
+
+
+#main {
+    
+	margin-top:-10px;
+	height: 500px;
+    width: 37.5%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-left:600px;
+   
+    
+    background-size: 100% 100%;
+
+}
+
+h1 {
+	font-size: 120px;
+	display: inline-block;
+	padding: 1rem;
+	position: relative;
+	opacity: 1;
+	transform: scale(1);
+    transition: transform 0.5s ease, opacity 1s ease;
+    color:rgb(1, 1, 57);
+}
+
+.is-loading h1 {
+	transform: scale(0.9);
+	opacity: 0;
+}
+
+h1:before,
+h1:after {
+	height: 2px;
+	width: 100%;
+	content: "";
+	background:rgb(1, 1, 57);
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+
+h1:before {
+	top: 0;
+	left: 0;
+}
+
+h1:after {
+	bottom: 0;
+	right: 0;
+}
+
+.is-loading h1:before,
+.is-loading h1:after {
+	width: 0;
+}
+#indicator{
+    position:absolute;
+    display:flex;
+    flex-flow:column;
+    margin-top:100px;
+    margin-left:5px;
+    z-index:5;
+    color:rgb(1, 1, 57);
+
+}
+.special{
+    font-weight:bold;
+  }
+  .heart:hover{
+    color:red;
+  }
+  .heart:visited{
+    color:rgb(1, 1, 57);
+
+  }
+   /* html{
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; 
+    filter: grayscale(100%);
+}  */
