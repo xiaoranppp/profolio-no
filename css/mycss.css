@@ -32,7 +32,7 @@ a.skip-main:focus, a.skip-main:active {
     z-index:999;
 }
   body{
-    background-image:url('../img/back.gif');
+  
     background-color:white;
   }
   .letter{
