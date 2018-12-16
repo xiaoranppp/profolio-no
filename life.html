@@ -7,9 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/mycss.css"> 
     <link rel="stylesheet" type="text/css" href="css/life.css"> 
+    <link rel="stylesheet" type="text/css" href="css/media3.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src='myjs.js'></script>
     <script src="wow.js"></script>
@@ -100,7 +103,7 @@ sr.reveal('.js--fadeInLeft', {
             <li class='flex-item'><a href = "index.html">Welcome Page</a></li>
             <li class='flex-item'><a href = "cities.html">Cities I lived in </a></li>
             <li class='special flex-item'><a href = "life.html">Experience</a></li>
-            <li class='flex-item'><a href = "random.html">Cities I traveled to</a></li>
+            <li class='flex-item'><a href = "Travel.html">Cities I traveled to</a></li>
         </ul>
        
              
@@ -142,27 +145,59 @@ sr.reveal('.js--fadeInLeft', {
             
               <div id='picturethree' class='pic'>
                   
-                      <div class="front" id='front3' >2010-2017</div>
+                <a href='#to'> <div class="front" id='front3' >2010-2017</div></a>
                       
                 
             </div>
             <div id='picturefour' class='pic'>
                     
-                        <div class="front" id='front4'>2017-Now</div>
+                <a href='#to'><div class="front" id='front4'>2017-Now</div></a>
                         
                  
               </div>
      </div>
      <div id='year'>
+         <h1 id='my_file'>My Life Experience</h1>
      <div id='left'>
-         <div class='yr js--fadeInLeft' id='1995'>
+         <div class='yr' id='1995'>
              1995
          </div>
-         <div class='yr js--fadeInLeft' style='margin-top:150px;'>
+         <div class='yr' style='margin-top:150px;'>
                 1997
             </div>
-            <div class='yr js--fadeInLeft' id='2001' style='margin-top:150px;'>
+            <div class='yr' id='2001' style='margin-top:150px;'>
             2001
+        </div>
+        <div class='yr' id='to' style='margin-top:150px; margin-left:-20px;'>
+            To be 
+            continued
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Introduction</button>
+
+            
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style='font-size:30px;font-family:serif'>Self-introduction</h4>
+                </div>
+                <div class="modal-body">
+                    <p style='font-size:20px;line-height:20px;font-family:serif'>
+                            Xiaoran Peng(Stella Peng) is a second year master student in University of Michigan major in Electrical and Computer Engineering graduated from Fudan University. Her interest includes machine learning, artificial intelligence and related software development. Also she is passionate about new technology, willing to play in teams and highly self-motivated.
+
+                           <br> Now she is looking for a full time job related to her interests.     
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+
+            </div>
+            </div>
         </div>
      </div>
      <div id='right'>
@@ -185,24 +220,41 @@ sr.reveal('.js--fadeInLeft', {
          </div>
          <div class='life js--fadeInRight'style='margin-top:100px;'>
                 <div class='photoleft bold'>
-                        pic
+                    <h2 style='margin-top:0px;'>
+                        Childhood
+                    </h2>
+                    <p style='margin-top:-10px;'>
+                        At that time, I lived in luoyang a small city with long history in luoyang. Still I do not have too many memory at that time. 
+                        However, I remembered that the most famous TV series at that time is called 'Huanzhu Gege'
                     </div>
                     <div class='center'>
-                     kkk
+                        <img src="img/huanzhugege.jpg" alt="Huanzhugege" class='smp'>
                     </div>
                     <div class='wordright bold'>
-                           kkk
+                        <h2 style='margin-top:0px;'>
+                            Family
+                        </h2>
+                        <p style='margin-top:-10px;'>
+                           I lived with my parents, my aunt and my grandma in a very small house. My parents worked hard everyday and my grandma and my aunt spended a lot time with me.
+                           Thay taught me the most famous game in China--Majiang.
+                        </p>
                      </div>
      </div>
             <div class='life js--fadeInRight' style='margin-top:100px'>
                 <div class='photoleft'>
-                    ppp
+                    <img src="img/fri1.jpg" alt="Friends young" class='smp'>
                 </div>
                 <div class='center bold'>
-                 kkk
+                    <h2 style='margin-top:0px; font-size:28px;'>
+                        Primary School
+                    </h2>
+                    <p style='margin-top:-10px;'>
+                       I met my life long best friends Yi Wang and Yafei Wang. We are classmates at that time.<br>
+                       We now living in 3 different countris. However we spend a lot of time chatting and playing mobile games together.
+                    </p>
                 </div>
                 <div class='wordright'>
-                       kkk
+                    <img src="img/fri2.png" alt="Friends Old" class='smp'>
                  </div>
             </div>
     
